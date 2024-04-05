@@ -1,0 +1,49 @@
+@charset "ISO-8859-1";
+
+.cuadros{
+	display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.cuadros_ {
+    width: 190px;
+    outline: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+} 
+
+h1 {
+	margin-bottom: 20px;
+}
+
+.textoOro{
+	font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.cantidadOro{
+	outline: 1px solid black;
+    width: 65px;
+    margin-left: 15px;
+}
+
+.cuadroAbajo{
+	display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-height: 450px;
+    overflow: auto;
+}
+
+.cuadroComentario{
+	outline-style: auto;
+    display: flex;
+    width: 915px;
+    max-height: inherit;
+    overflow-y: auto;
+    margin-left: 154px;
+}
